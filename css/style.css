@@ -1,0 +1,21 @@
+/* style.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #e6f7ff; /* Cor de fundo azul claro */
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #cce0ff; /* Cor de fundo ainda mais clara para linhas pares */
+}
+
+h1{
+    
+    text-align: center;
+}
