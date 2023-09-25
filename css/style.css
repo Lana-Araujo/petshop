@@ -19,3 +19,69 @@ h1{
     
     text-align: center;
 }
+/* style.css */
+
+/* Estilização para o título h1 */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #333; /* Cor do texto */
+    margin-top: 20px; /* Espaço superior */
+}
+
+/* Estilização para o corpo do documento */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    background-color: #f5f5f5; /* Cor de fundo do corpo */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização para os links */
+a {
+    text-decoration: none; /* Remover sublinhado padrão dos links */
+    color: #0077cc; /* Cor dos links */
+}
+
+a:hover {
+    text-decoration: underline; /* Adicionar sublinhado ao passar o mouse */
+}
+
+/* Estilização para o cabeçalho do Pet Shop */
+.header {
+    background-color: #ff6600; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto do cabeçalho */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilização para seções de conteúdo */
+.section {
+    padding: 20px;
+    background-color: #fff; /* Cor de fundo das seções */
+    margin: 20px;
+    border-radius: 5px; /* Cantos arredondados */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+/* Estilização para botões */
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077cc; /* Cor de fundo dos botões */
+    color: #fff; /* Cor do texto dos botões */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efeito de transição ao passar o mouse */
+    margin-right: 10px; /* Espaço entre os botões */
+}
+
+.button:hover {
+    background-color: #005299; /* Cor de fundo dos botões ao passar o mouse */
+}
